@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layout 3</title>
+	<style>
+		*{
+			margin: 0;
+			box-sizing: border-box;
+		}
+		#container{
+			width: 960px;
+			min-height: 200px;
+			border: solid 2px black;
+			margin: auto;
+		}
+		#header, #main, #footer{
+			width: 900px;
+			height: 200px;
+			background: #5CCCE0;
+			border: solid 5px gray;
+			margin: auto;
+			margin-top: 30px;
+		}
+		#main{
+			width: 900px;
+			height: 300px;
+			border: none;
+			background: none;
+		}
+		.sidebar{
+			width: 200px;
+			height: 300px;
+			background: #5CCCE0;
+			border: solid 5px gray;
+			float: left;
+		}
+		#content{
+			width: 450px;
+			height: 300px;
+			background: #5CCCE0;
+			border: solid 5px gray;
+			margin-right: 20px;
+			margin-left: 20px;
+			float: left;
+		}
+		h2{
+			color: white;
+			font-size: 40px;
+			text-align: center;
+		}
+		#header, #footer h2{
+			line-height: 190px;
+		}
+		#main h2{
+			line-height: 290px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"><h2>header</h2></div>
+		<div id="main">
+			<div class="sidebar"><h2>Sidebar</h2></div>
+			<div id="content"><h2>content</h2></div>
+			<div class="sidebar"><h2>Sidebar ad</h2></div>
+		</div>
+		<div id="footer"><h2>footer</h2></div>
+	</div>
+</body>
+</html>

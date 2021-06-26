@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layout 2</title>
+	<style>
+		*{
+			margin: 0;
+			box-sizing: border-box;
+		}
+		#container{
+			width: 960px;
+			min-height: 900px;
+			border: 10px solid black;
+			margin: auto;
+		}
+		#sidebar{
+			width: 200px;
+			height: 800px;
+			border: solid 5px gray;
+			float: left;
+			margin: auto;
+			margin-left: 30px;
+			margin-top: 30px;
+			background: #83D9EB;
+		}
+		#main{
+			width: 600px;
+			min-height: 200px;
+			float: left;
+		}
+		#header, #content, #footer{
+			width: 500px;
+			height: 250px;
+			background: #83D9EB;
+			border: solid 5px gray;
+			margin: auto;
+			margin-top: 30px;
+		}
+		#content{
+			height: 300px;
+		}
+		h2, h3{
+			font-size: 30px;
+			color: white;
+			line-height: 240px;
+			text-align: center;
+		}
+		#content h3{
+			line-height: 290px;
+		}
+		#sidebar h2{
+			line-height: 790px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="sidebar"><h2>Sidebar</h2></div>
+		<div id="main">
+			<div id="header"><h3>header</h3></div>
+			<div id="content"><h3>content</h3></div>
+			<div id="footer"><h3>footer</h3></div>
+		</div>
+	</div>
+</body>
+</html>

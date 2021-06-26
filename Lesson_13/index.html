@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layout 1</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		#container{
+			width: 960px;
+			min-height: 100px;
+			border: solid 2px black;
+			/*background: orange;*/
+			margin: auto;
+		}
+		.header, .content, .footer{
+			width: 900px;
+			height: 200px;
+			border: solid 10px gray;
+			background: #6FBCCF;			
+			margin: auto;
+			margin-top: 30px;
+		}
+		h2{
+			text-align: center;
+			color: white;
+			font-size: 100px;
+			font-family: sans-serif;
+			line-height: 180px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="header"><h2>header</h2></div>
+		<div class="content"><h2>content</h2></div>
+		<div class="footer"><h2>footer</h2></div>
+	</div>
+</body>
+</html>
