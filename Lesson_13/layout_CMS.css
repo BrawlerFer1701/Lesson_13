@@ -1,0 +1,295 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        box-sizing: border-box;
+    }
+    body{
+        background: #E3DDDD;
+    }
+    #container {
+        margin: auto;
+    }
+    
+    /*------------------------------*/
+    #navbar {
+        width: 100%;
+        height: 150px;
+        background: black;
+    }
+    #nav_content{
+        width: 800px;
+        height: 100px;
+        background: none;
+        border: none;
+        color: white;
+        margin: auto;
+
+    }
+    #header{
+        width: 800px;
+        height: 100px;
+        text-align: left;
+        line-height: 100px;
+        font-size: 20px;
+        font-weight: none;
+        padding-left: 20px;
+    }
+    #menu_bar{
+        width: 800px;
+        height: 50px;
+        /*background: hotpink;*/
+    }
+    /*#menu{
+        width: 600px;
+        height: 50px;
+        background: pink;
+        border: none;
+        padding-bottom: none;
+    }*/
+        #menu_bar ul{
+            list-style-type: none;
+           
+        }
+        #menu_bar ul li{
+            height: 45px;
+           /* width: 40px;*/
+            float: left;
+            background: white;
+            margin-right: 2px;
+            margin-top: 5px;
+            /*margin-bottom: 0;*/
+            font-size: 15px;
+            padding: 20px 10px 0px 10px;
+            
+        }
+        #menu_bar ul li a{       
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+            padding-bottom: 0;
+            /*background: blue;*/
+        }
+    #message{
+        line-height: 50px;
+        text-align: right;
+    }
+    #message h4{
+        font-size: 13px;
+        font-weight: initial;
+        margin-right: 10px;
+    }
+    /*----------------------------------*/
+    #main{
+        background: white;
+        width: 800px;
+        height: 1200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #main_content{
+        width: 600px;
+        min-height: 200px;
+        background: #FFFFFF;
+        float: left;
+        /*margin: 10px 15px;*/
+    }
+    .pri_mess{
+        /*width: 600px;*/
+        height: 30px;
+        line-height: 30px;
+        margin: 10px;
+        text-transform: uppercase;
+       /* background: hotpink;*/
+    }
+    .pri_mess h4{
+        font-size: 10px;
+        float: left;
+        /*background: black;*/
+        width: 510px;
+        margin-right: 15px;
+    }
+    .mes_img{
+        width: 10px;
+        height: 10px;
+        vertical-align: middle;
+        margin: 10px;
+        float: left;
+    }
+    #close{
+        margin: 0px;
+    }
+    #success{
+        background: #CCFBDA;
+        border: solid 1px #A1CEAE;
+        color: #7BE67E;
+        /*display: flex;*/
+    }
+    #fail{
+        background: #FFB5B5;
+        border: solid 1px #FF8F8F;
+        color: #F95060;
+    }
+    #form_content{
+        margin: 10px;
+        font-size: 12px;
+        text-align: justify;
+    }
+        #form_content h2{
+            font-size: 24px;
+            /*background: pink;*/
+            border-bottom: solid 1px #D8D7D7;
+            padding: 5px 0;
+            margin: 20px 0 10px 0;
+        }
+        #form_content p{
+            margin: 5px;
+            margin-left: 0;
+            font-size: 12px;
+            line-height: 17px;
+            /*background: #ADE5B5;*/
+        }
+        #form_content h4{
+            font-size: 14px;
+            color: #666;
+            /*background: yellow;*/
+            padding: 5px 0;
+        }
+    
+    input[type=text]{
+        margin: 5px;
+        padding: 5px;
+        background: #F7F2F6;
+        border: solid 1px #D8D7D7;
+    }
+        #small{
+            width: 180px;
+        }
+        #large{
+            width: 360px;
+        }
+        input[type=submit]{
+            width: 90px;
+            margin: 5px;
+            padding: 10px 25px;
+            color: white;
+            background: black;
+            border: none;
+        }
+    input[type=checkbox], input[type=radio], select{
+        margin: 5px;
+    }
+    select{
+        width: 150px;
+        background: #F7F2F6;
+        padding: 3px;
+        border: solid 1px #D8D7D7;
+
+    }
+    table{
+       margin: 5px 0;
+       width: 100%;
+       border-collapse: collapse;
+    }
+        tr, td, th{
+            text-align: left;
+            height: 30px;
+            padding: 5px;
+            border: solid 1px #ccc;
+        }
+        th{
+            background: #DEEBFE;
+        }
+        td a{
+            color: #3F6BF8;
+        }
+        td img{
+            margin: 3px;
+        }
+    #quote{
+        width: 100%;
+        background: red;
+        margin: 10px 0;
+    }
+        #quote img{
+            width: 30px;
+            float: left;
+            margin-right: 10px;
+        }
+        #quote p{
+            float: left;
+            width: 530px;
+        }
+    #list{
+        /*background: orange;  */ 
+    }
+        #list ul{
+            list-style-type: none;
+            list-style-image: url(art.jpg);
+            /*background: yellow;*/
+            list-style-position: inside;
+        }
+        #list ul li{
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+    #sidebar{
+        margin-top: 10px;
+        width: 150px;
+        background: #FFFFFF;
+        height: 200px;
+        margin-left: 25px;
+        float: left;
+        /*background: blue;*/
+    }
+        #sidebar #title{
+            width: 150px;
+            height: 30px;
+            font-size: 10px;
+            padding: 10px;
+            background: #DEEBFE;
+        }
+        #sidebar a{
+            color: #6C6CFE;
+        }
+        .side_ad{
+            width: 150px;
+            height: 50px;
+            border-bottom: solid 1px #C7BEBE;
+            /*background: hotpink;*/
+        }
+            .side_ad div{
+                float: left;
+                margin-top: 5px;
+            }
+            .side_ad p{
+                font-size: 10px;
+                margin: 10px 5px;
+            }
+            .side_ad a{
+                font-size: 13px;
+                background: white;
+            }
+        .side_img{
+            margin: 7px;
+            float: left;
+        }
+    /*------------------------*/
+    #footer {
+        width: 100%;
+        height: 50px;
+        background: black;
+        padding-top: 5px;
+
+    }
+    #copyright{
+        /*background: pink;*/
+        width: 800px;
+        border: none;
+        color: white;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: initial;
+    }
